@@ -1,0 +1,117 @@
+/* selector universal*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f4f6f8;
+    text-align: center;
+}
+header{
+    background-image: url(../img/fondo2.jpeg);
+    padding: 2em;
+}
+nav{
+    background: #1e2a38;
+    margin-bottom: 2em;
+    height: 3em;
+}
+nav ul li{
+    width: 15%;
+    display: inline-block;
+    line-height: 3em;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: aqua;
+}
+#foto{
+    width: 10%;
+    border: 5px aqua solid;
+    border-radius: 30%;
+}
+
+h1{
+      font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+section{
+    width: 80%;
+    padding: 2em;
+    margin: 2em auto;
+    background-color: white;
+    box-shadow: 0  4px 10px rgda(0,0,0,0,08);
+}
+
+section h2{
+    font-size: 2em;
+    font-weight: bold;
+    color: #1e2a38;
+    margin: 1.5em auto;
+    border-bottom: 3px aqua dashed;
+    margin-bottom: 1em;
+    width: 30%;
+}
+
+section p {
+    color: rgb(62, 61, 61);
+    margin-bottom: 1em;
+
+}
+.estudio{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+img{
+    max-width: 100%;
+}
+
+h3{
+   margin-bottom: auto; 
+}
+.habilidad {
+  border: 1px solid black;
+  display: inline-block;
+  width: 45%;
+  margin-bottom: 5px;
+}
+
+.imagen{
+    max-width: 35%;
+    display: inline-block;
+    height:30%;
+    vertical-align: top;
+}
+.texto{
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 0.5em;
+    vertical-align: top;
+}
+
+#papa_articulos{
+    display: flex;
+    align-items: flex-start;
+    background-color: #1e2a38;
+    height: 500px;
+}
+
+#proyecto article{
+    border: 1px black solid;
+    width: 30%;
+    padding: 1em;
+    background-color: white;
+}
